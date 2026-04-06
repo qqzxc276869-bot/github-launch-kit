@@ -1,0 +1,31 @@
+name: Bug report
+description: Report something broken or unclear in the skill or repository.
+title: "[bug] "
+labels:
+  - bug
+body:
+  - type: textarea
+    id: summary
+    attributes:
+      label: What happened?
+      description: Describe the bug or incorrect behavior clearly.
+      placeholder: The skill suggested a launch step that does not match the repository context.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect instead?
+      placeholder: I expected the skill to prioritize README fixes before launch copy.
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Share the prompt, repository type, or relevant files if helpful.
+  - type: textarea
+    id: validation
+    attributes:
+      label: Validation details
+      description: Include any command output or reproduction steps.

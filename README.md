@@ -8,6 +8,17 @@
 
 The goal is not fake growth. The goal is a repository that is easier to understand, easier to trust, and easier to share.
 
+## What makes it useful
+
+Most "launch help" advice for repositories is generic marketing talk. This skill is narrower and more practical:
+
+- it starts from the repo that already exists
+- it looks for clarity, proof, and activation speed first
+- it rewrites real launch surfaces instead of giving vague tips
+- it explicitly avoids fake traction or inflated claims
+
+That makes it a good fit for solo developers shipping tools, agents, scripts, templates, and open-source side projects.
+
 ## Why this skill exists
 
 Many solid projects never get traction because the presentation is weak:
@@ -68,6 +79,30 @@ Then invoke it explicitly with:
 ```text
 $github-launch-kit
 ```
+
+## Recommended GitHub topics
+
+When you publish this repository, set topics close to:
+
+- `codex-skill`
+- `open-source`
+- `github`
+- `readme`
+- `developer-tools`
+- `launch`
+- `prompt-engineering`
+- `ai-agents`
+- `oss`
+
+## Community health
+
+This repository includes contribution guidance plus bug report, feature request, and pull request templates so it feels maintained from day one.
+
+If you want to improve conversion further after publishing, the first artifacts to add are:
+
+- a screenshot or short GIF of the skill being used
+- one before/after README rewrite example
+- one real repository case study showing launch improvements
 
 ## Design principle
 

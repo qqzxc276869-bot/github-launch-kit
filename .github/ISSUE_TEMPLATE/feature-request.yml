@@ -1,0 +1,25 @@
+name: Feature request
+description: Suggest a focused improvement to the skill or repository.
+title: "[feature] "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem should this solve?
+      placeholder: The skill handles README rewrites well, but it does not give enough guidance for launch case studies.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What would you like to add?
+      placeholder: Add a reusable section for before/after launch examples.
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Why would this help?
+      placeholder: It would make the skill more useful for developers preparing a public launch.
