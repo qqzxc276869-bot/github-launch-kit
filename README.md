@@ -6,7 +6,7 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/qqzxc276869-bot/github-launch-kit?style=social)](https://github.com/qqzxc276869-bot/github-launch-kit/stargazers)
 
-![GitHub Launch Kit preview](./preview.svg)
+![GitHub Launch Kit 中文预览图](./preview.svg)
 
 `github-launch-kit` 会让 Codex 用一套更偏实战的开源发布工作流，去优化一个仓库最影响第一印象的部分：项目定位、README 结构、快速上手路径、可信证据、以及发布文案。
 
