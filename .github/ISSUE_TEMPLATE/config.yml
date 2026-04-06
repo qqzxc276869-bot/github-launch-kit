@@ -1,5 +1,5 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Questions about using the skill
+  - name: 关于 skill 的使用问题
     url: https://github.com/qqzxc276869-bot
-    about: Open a discussion or profile contact path if you want usage help outside bug reports and feature requests.
+    about: 如果你的问题不属于 bug 或功能建议，可以通过讨论区或个人主页联系入口交流。

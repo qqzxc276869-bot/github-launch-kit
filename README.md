@@ -2,9 +2,9 @@
 
 > 一个让 Codex 帮你把普通仓库打磨成“更适合公开发布、更容易被理解和收藏”的 skill。
 
-[![Validate Skill](https://github.com/qqzxc276869-bot/github-launch-kit/actions/workflows/validate-skill.yml/badge.svg)](https://github.com/qqzxc276869-bot/github-launch-kit/actions/workflows/validate-skill.yml)
-[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/qqzxc276869-bot/github-launch-kit?style=social)](https://github.com/qqzxc276869-bot/github-launch-kit/stargazers)
+[![校验状态](https://img.shields.io/github/actions/workflow/status/qqzxc276869-bot/github-launch-kit/validate-skill.yml?label=%E6%A0%A1%E9%AA%8C&logo=githubactions&logoColor=white)](https://github.com/qqzxc276869-bot/github-launch-kit/actions/workflows/validate-skill.yml)
+[![许可证](https://img.shields.io/badge/%E8%AE%B8%E5%8F%AF%E8%AF%81-MIT-blue.svg)](./LICENSE)
+[![星标数](https://img.shields.io/github/stars/qqzxc276869-bot/github-launch-kit?label=%E6%98%9F%E6%A0%87)](https://github.com/qqzxc276869-bot/github-launch-kit/stargazers)
 
 ![GitHub Launch Kit 中文预览图](./preview.svg)
 

@@ -1,43 +1,43 @@
-# Contributing
+# 贡献指南
 
-Thanks for considering a contribution to `github-launch-kit`.
+感谢你愿意为 `github-launch-kit` 做贡献。
 
-## Good contributions
+## 什么样的贡献最有价值
 
-This repository is most valuable when contributions make the skill more practical for real GitHub launches. Strong contributions usually improve one of these areas:
+这个仓库最有价值的方向，是让这个 skill 在真实 GitHub 发布场景里更实用。高质量贡献通常会提升下面这些方面：
 
-- sharper launch workflows
-- better README or positioning guidance
-- stronger examples grounded in real repositories
-- cleaner issue or PR hygiene
-- validation improvements that keep the skill reliable
+- 更清晰的发布工作流
+- 更好的 README 或项目定位指导
+- 更贴近真实仓库的案例
+- 更整洁的 Issue / PR 协作体验
+- 更可靠的校验与质量保障
 
-## Before you open a pull request
+## 提交 Pull Request 之前
 
-Please keep changes focused. Small, opinionated improvements are easier to review than broad rewrites.
+请尽量保持改动聚焦。小而明确、有观点的改进，通常比大而散的重写更容易评审。
 
-When updating the skill:
+如果你要更新这个 skill：
 
-1. Edit the relevant files in `github-launch-kit/`
-2. Run `python scripts/validate_skill.py`
-3. Explain what changed and why it improves the launch workflow
+1. 修改 `github-launch-kit/` 下的相关文件
+2. 运行 `python scripts/validate_skill.py`
+3. 在 PR 里说明改了什么，以及为什么这会让发布工作流更好
 
-## Writing standard
+## 写作标准
 
-- prefer concrete guidance over abstract advice
-- avoid hype language or fabricated social proof
-- optimize for clarity and reuse
-- keep additions concise unless detail is essential
+- 优先给出具体建议，而不是抽象口号
+- 避免夸张表述和伪造社会认同
+- 优化清晰度、可复用性和可执行性
+- 除非确实必要，否则尽量简洁
 
-## Pull requests
+## Pull Request 建议包含什么
 
-Pull requests are easiest to review when they include:
+最容易评审的 Pull Request，一般会写清楚：
 
-- the problem being solved
-- the exact change made
-- why the new version is better
-- how you validated it
+- 这次改动解决了什么问题
+- 具体改了哪些内容
+- 新版本为什么更好
+- 你如何验证这次改动
 
-## Discussions
+## 先讨论再动手的情况
 
-If a change is large or changes the philosophy of the skill, open an issue first so we can align on scope.
+如果你的改动比较大，或者会改变这个 skill 的核心思路，建议先开一个 Issue 对齐范围，再开始实现。

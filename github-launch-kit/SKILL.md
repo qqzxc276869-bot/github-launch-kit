@@ -1,104 +1,104 @@
 ---
 name: github-launch-kit
-description: "Use this skill when a repository needs to feel launch-ready on GitHub: sharpening the one-line pitch, restructuring the README, improving onboarding clarity, drafting launch copy, and identifying the fastest changes that increase trust, discoverability, and star-worthiness."
+description: "当一个仓库需要更适合在 GitHub 上公开发布时使用这个 skill：它会帮助收紧一句话定位、重构 README、提升首次上手清晰度、生成发布文案，并找出最能提升信任感、可发现性和 star 转化的改动。"
 ---
 
 # GitHub Launch Kit
 
-## Overview
+## 概述
 
-This skill helps Codex turn a technically solid repository into a public-facing open-source project that is easier to understand, easier to try, and easier to share. It focuses on the launch surfaces that affect first impressions: positioning, README quality, activation speed, credibility signals, and community entry points.
+这个 skill 会让 Codex 把一个技术上不错、但展示面还不够强的仓库，整理成更适合公开发布的开源项目。它主要关注最影响第一印象的部分：项目定位、README 质量、首次上手速度、可信度信号以及社区入口。
 
-Use it when a user wants more GitHub stars, a cleaner launch, a stronger README, or a clearer repo story before posting on GitHub, X, Reddit, Hacker News, Product Hunt, or developer communities.
+当用户想要更多 GitHub stars、更完整的发布状态、更强的 README，或者在发到 GitHub、X、Reddit、Hacker News、Product Hunt 等社区前，需要把仓库故事讲清楚时，就应该使用它。
 
-## What To Inspect First
+## 优先检查什么
 
-Read only what is needed to understand the product and its current presentation:
+只读取理解产品和当前展示面所必需的内容：
 
-- Root README and any docs linked from it
-- Package metadata or app manifests that reveal the product category
-- Main entrypoints, demos, examples, screenshots, or recordings if present
-- Supporting trust signals such as tests, benchmarks, `LICENSE`, `CONTRIBUTING`, and issue templates
+- 根目录 README 及其链接到的文档
+- 能说明项目类别的包信息或清单文件
+- 主要入口、演示、示例、截图或录屏
+- 能增加信任感的内容，如测试、基准、`LICENSE`、`CONTRIBUTING` 和 issue 模板
 
-If the product itself is still ambiguous after a quick pass, pause and infer the most likely user, problem, and moment of use before editing launch-facing copy.
+如果快速浏览后，产品本身仍然不够明确，那么先暂停编辑发布文案，优先推断最可能的目标用户、问题场景和使用时机。
 
-## Launch Workflow
+## 发布工作流
 
-### 1. Clarify the actual promise
+### 1. 先把真正的承诺讲清楚
 
-- Write a plain one-line explanation of what the repo does.
-- Identify the primary audience. Prefer one concrete audience over a broad market.
-- Name the strongest differentiator. If none is obvious, say that directly instead of inventing one.
-- Reject vague claims such as "all-in-one", "revolutionary", or "next-generation" unless the repository proves them.
+- 用一句朴素的话说明这个仓库到底做什么。
+- 找出主要受众。优先选择一个具体人群，而不是模糊的大市场。
+- 明确最强的差异点。如果没有明显差异点，就直接指出来，不要编造。
+- 除非仓库能证明，否则不要使用 “all-in-one”“revolutionary”“next-generation” 这类空泛说法。
 
-### 2. Score the first impression
+### 2. 评估第一印象
 
-Evaluate the repo on five axes:
+从五个维度评估仓库：
 
-1. Clarity: Can a new visitor tell what it is in under 10 seconds?
-2. Activation: Can they run, install, or try it quickly?
-3. Credibility: Are there demos, benchmarks, screenshots, tests, or real examples?
-4. Focus: Does the repo target a clear use case rather than everything at once?
-5. Approachability: Does contributing or exploring feel safe for newcomers?
+1. 清晰度：新访客能否在 10 秒内看懂它是什么？
+2. 上手成本：他们能否快速运行、安装或试用？
+3. 可信度：有没有 demo、benchmark、截图、测试或真实示例？
+4. 聚焦度：仓库是否服务于明确场景，而不是试图覆盖一切？
+5. 亲和度：新用户是否会觉得尝试和贡献都比较安全？
 
-Call out the top three blockers first. Prioritize structural improvements over copy polish when the repo is confusing.
+先指出最重要的三个阻塞点。如果仓库本身很乱，优先修结构，而不是先抠措辞。
 
-### 3. Improve the high-impact surfaces
+### 3. 优先改善高影响区域
 
-When editing or proposing changes, bias toward the surfaces below because they affect discovery and conversion the most:
+在编辑或提出改动时，优先处理下面这些区域，因为它们最影响被发现和转化：
 
-- Repository name and one-line description
-- README opening section
-- Install or quickstart path
-- Proof section: screenshots, outputs, benchmarks, before/after, live demo
-- Example use cases that help users self-identify
-- Community surfaces: `CONTRIBUTING`, issue templates, labels, discussion prompts
+- 仓库名和一句话描述
+- README 开头部分
+- 安装或 quickstart 路径
+- 证据区：截图、输出、benchmark、前后对比、在线 demo
+- 让用户快速代入的使用场景示例
+- 社区面：`CONTRIBUTING`、issue 模板、labels、讨论引导
 
-If the user wants implementation help, do not stop at advice. Draft or edit the actual files.
+如果用户想让你直接帮改，不要只给建议，要直接起草或修改实际文件。
 
-### 4. Draft launch assets
+### 4. 起草发布素材
 
-When asked, produce concise launch-ready assets such as:
+用户需要时，产出简洁、可直接使用的发布素材，例如：
 
-- Three tagline options with different tones
-- A 120-160 character repository description
-- GitHub topic suggestions
-- A short X post
-- A Hacker News title and summary
-- A Reddit post opener
-- A release note or launch checklist
+- 三个不同语气的 tagline
+- 一段 120 到 160 字符的仓库描述
+- GitHub topics 建议
+- 一条短 X 发帖文案
+- 一个 Hacker News 标题和简介
+- 一个 Reddit 开场文案
+- 一份 release note 或发布清单
 
-Keep launch copy grounded in the repository. Never fake adoption, user counts, sponsorship, or performance claims.
+发布文案必须基于仓库真实情况。不要伪造采用情况、用户量、赞助关系或性能数据。
 
-### 5. Be honest about star-worthiness
+### 5. 对 star 潜力保持诚实
 
-If the real problem is weak scope, no clear audience, or no proof, say so. A repo often needs better framing, sharper examples, or a narrower promise more than it needs prettier prose.
+如果真正的问题是范围太散、受众不清晰、缺乏证据，就直接说出来。很多仓库更需要的是更好的 framing、更尖锐的示例或更窄的承诺，而不是更好看的文案。
 
-This skill should help the user earn trust, not simulate traction.
+这个 skill 的目标是帮用户建立信任，而不是伪造热度。
 
-## Default Deliverables
+## 默认交付物
 
-Unless the user asks for something narrower, aim to provide:
+除非用户明确要求更窄的内容，否则默认尽量交付：
 
-1. A sharper one-line pitch
-2. A short diagnosis of launch blockers
-3. Concrete file edits or proposed file edits
-4. Launch copy snippets tailored to the repo
-5. A short list of next artifacts to add, such as screenshots or examples
+1. 一句更清晰的项目定位
+2. 一段简短的发布阻塞诊断
+3. 具体文件改动或可执行的改动方案
+4. 针对该仓库的发布文案片段
+5. 一份下一步该补什么素材的短清单，例如截图或示例
 
-## Reference Files
+## 参考文件
 
-- For launch scoring and trust signals, read [references/launch-checklist.md](references/launch-checklist.md).
-- For README sequencing and section design, read [references/readme-structure.md](references/readme-structure.md).
+- 需要系统评估发布状态与信任信号时，读 [references/launch-checklist.md](references/launch-checklist.md)。
+- 需要重写 README 结构时，读 [references/readme-structure.md](references/readme-structure.md)。
 
-Load those references only when the task needs more detailed guidance.
+只有在任务确实需要更细 guidance 时，才加载这些参考文件。
 
-## Example Triggers
+## 触发示例
 
-This skill should trigger for requests like:
+遇到下面这类请求时，应该触发这个 skill：
 
-- "Help me make this repo look ready for GitHub."
-- "Rewrite the README so more people understand it."
-- "Prepare this project for an open-source launch."
-- "What should I change before posting this on Hacker News?"
-- "I want more stars for this repository. Fix the presentation."
+- “帮我把这个仓库整理成更像能发 GitHub 的状态。”
+- “把这个 README 重写一下，让更多人能看懂。”
+- “帮我把这个项目准备成适合公开发布的开源项目。”
+- “发到 Hacker News 之前，我还应该改什么？”
+- “我想让这个仓库更容易拿 star，帮我改展示面。”

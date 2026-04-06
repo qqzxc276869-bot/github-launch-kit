@@ -1,47 +1,47 @@
-# Launch Checklist
+# 发布检查清单
 
-Use this file when a repository needs a structured review before launch.
+当一个仓库在正式发布前需要做结构化评估时，使用这个文件。
 
-## First Impression
+## 第一印象
 
-- The repository name is specific and easy to remember.
-- The one-line description explains the product, user, and value quickly.
-- The top of the README answers "what is this?" before "how is it built?"
-- The first screen contains at least one proof element: screenshot, GIF, benchmark, or output sample.
+- 仓库名是否具体且容易记住。
+- 一句话描述能否快速讲清产品、用户和价值。
+- README 顶部是否先回答“这是什么”，而不是先讲“它怎么实现”。
+- 第一屏里是否至少出现一个证据元素：截图、GIF、benchmark 或输出示例。
 
-## Activation
+## 上手体验
 
-- A new user can reach the first successful result quickly.
-- The quickstart uses the minimum number of commands.
-- Required environment details are explicit.
-- There is at least one copy-paste example that matches a real use case.
+- 新用户能否尽快到达第一次成功结果。
+- quickstart 是否用尽可能少的命令完成。
+- 必需的环境信息是否写得明确。
+- 是否至少有一个能直接复制粘贴、又符合真实场景的示例。
 
-## Credibility
+## 可信度
 
-- Claims are supported by visible evidence.
-- Benchmarks describe what was measured and under which conditions.
-- The repository includes a license.
-- Tests, examples, or demos are easy to discover.
+- 所有承诺是否都有可见证据支撑。
+- benchmark 是否写清楚测了什么、在什么条件下测的。
+- 仓库是否带有 license。
+- 测试、示例或 demo 是否容易被发现。
 
-## Focus
+## 聚焦度
 
-- The README centers one core job before listing secondary features.
-- Feature lists are grouped by user outcomes, not implementation details.
-- The project avoids sounding like a generic toolkit unless that is the actual value.
+- README 是否先围绕一个核心任务展开，再列次要能力。
+- 功能列表是否按用户结果分组，而不是按实现细节分组。
+- 除非这就是实际价值，否则项目不应显得像一个泛泛的工具箱。
 
-## Community Surface
+## 社区面
 
-- `CONTRIBUTING` exists when outside contributions are welcome.
-- Issues have enough structure to reduce back-and-forth.
-- Roadmap statements are realistic and not a dumping ground for every idea.
-- The maintainer tone feels inviting and competent.
+- 如果欢迎外部贡献，是否有 `CONTRIBUTING`。
+- Issue 结构是否足够清晰，能减少来回追问。
+- Roadmap 是否现实，而不是把所有想法都堆进去。
+- 维护者语气是否显得友好、专业、可信。
 
-## Launch Readiness Questions
+## 发布前自问
 
-Ask these when deciding what to change next:
+决定下一步该改什么时，可以先问：
 
-1. What would make a stranger star this repo after a 30-second scan?
-2. What evidence would make them trust it enough to try?
-3. What is still missing for someone to recommend it publicly?
-4. Is the repo trying to serve too many audiences at once?
-5. Which single screenshot, example, or benchmark would change the first impression the most?
+1. 一个陌生人浏览 30 秒后，什么会让他愿意点 star？
+2. 什么证据会让他愿意真的试一下？
+3. 还缺什么，才足以让别人公开推荐这个仓库？
+4. 这个仓库是不是想同时服务太多类型的人？
+5. 哪一张截图、哪个示例或哪段 benchmark，最能改变第一印象？

@@ -1,51 +1,51 @@
-# README Structure
+# README 结构参考
 
-Use this file when rewriting or reorganizing the README.
+当需要重写或重组 README 时，使用这个文件。
 
-## Recommended Order
+## 推荐顺序
 
-1. Title and one-line promise
-2. Visual proof or key output
-3. Why it exists or what problem it solves
+1. 标题和一句话承诺
+2. 视觉证据或关键输出
+3. 为什么会有这个项目，它解决什么问题
 4. Quickstart
-5. Core use cases
-6. Why this repo is different
-7. Configuration or advanced usage
-8. Contributing and license
+5. 核心使用场景
+6. 这个仓库为什么不一样
+7. 配置或高级用法
+8. 贡献方式和 license
 
-## Opening Section Pattern
+## 开头部分的常用模式
 
-The opening should usually do four things in this order:
+README 开头通常应该按顺序完成四件事：
 
-1. Name the project
-2. Explain what it does in one sentence
-3. Show proof
-4. Offer a fast next step
+1. 先说项目名
+2. 用一句话说明它做什么
+3. 给出证据
+4. 给读者一个快速下一步
 
-If the reader still does not know whether the repo is for them, the opening is not finished.
+如果读者看到这里仍然不知道“这是不是给我用的”，那说明开头还没写完。
 
-## Good README Moves
+## 好的 README 常见做法
 
-- Replace abstract adjectives with concrete outcomes.
-- Show one memorable example instead of many weak ones.
-- Put setup after motivation, but before deep architecture.
-- Trim feature lists that repeat the same idea in different words.
-- Use headings that match questions readers actually ask.
+- 用具体结果替换抽象形容词。
+- 与其放很多弱例子，不如放一个让人记住的强例子。
+- 安装和使用应放在动机之后、深层架构之前。
+- 删掉那些只是换个说法重复同一件事的功能列表。
+- 标题要尽量贴近读者真实会问的问题。
 
-## Common Failure Modes
+## 常见失败模式
 
-- Starting with architecture before value
-- Burying the install path too far down
-- Overselling without proof
-- Writing for maintainers instead of first-time visitors
-- Listing every feature with equal weight
+- 一上来先讲架构，而不是先讲价值
+- 安装路径埋得太深
+- 没有证据却过度承诺
+- 主要写给维护者看，而不是写给第一次到访的人看
+- 所有功能都用同样权重罗列
 
-## Useful Section Prompts
+## 写作时可用的提示问题
 
-When drafting, use short prompts such as:
+起草 README 时，可以用这些简短问题推动自己：
 
-- "Who is this for?"
-- "What do I get in five minutes?"
-- "Why use this instead of the obvious alternative?"
-- "What should I look at first?"
-- "How do I contribute safely?"
+- “这到底是给谁用的？”
+- “五分钟内我能得到什么？”
+- “相比最明显的替代方案，为什么要用它？”
+- “我应该先看什么？”
+- “如果我想贡献，怎样做才安全？”

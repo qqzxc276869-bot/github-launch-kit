@@ -1,31 +1,31 @@
-name: Bug report
-description: Report something broken or unclear in the skill or repository.
-title: "[bug] "
+name: 问题反馈
+description: 反馈 skill 或仓库中存在的错误、异常或表述不清的地方。
+title: "[问题] "
 labels:
   - bug
 body:
   - type: textarea
     id: summary
     attributes:
-      label: What happened?
-      description: Describe the bug or incorrect behavior clearly.
-      placeholder: The skill suggested a launch step that does not match the repository context.
+      label: 发生了什么？
+      description: 请清楚描述错误或不符合预期的行为。
+      placeholder: 这个 skill 给出的发布步骤与当前仓库实际情况不匹配。
     validations:
       required: true
   - type: textarea
     id: expected
     attributes:
-      label: What did you expect instead?
-      placeholder: I expected the skill to prioritize README fixes before launch copy.
+      label: 你原本期望什么？
+      placeholder: 我希望这个 skill 先优先处理 README，而不是先生成发布文案。
     validations:
       required: true
   - type: textarea
     id: context
     attributes:
-      label: Context
-      description: Share the prompt, repository type, or relevant files if helpful.
+      label: 补充上下文
+      description: 如果方便，请补充提示词、仓库类型或相关文件。
   - type: textarea
     id: validation
     attributes:
-      label: Validation details
-      description: Include any command output or reproduction steps.
+      label: 复现与验证信息
+      description: 可附上命令输出、复现步骤或截图。

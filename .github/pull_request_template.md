@@ -1,16 +1,16 @@
-## Summary
+## 概要
 
-Explain the change in a few sentences.
+用几句话说明这次改动做了什么。
 
-## Why this matters
+## 为什么值得改
 
-Describe the problem this PR solves for the skill or repository.
+描述这个 PR 解决了 skill 或仓库里的什么问题。
 
-## Validation
+## 验证
 
-- [ ] Ran `python scripts/validate_skill.py`
-- [ ] Checked affected Markdown or template files
+- [ ] 已运行 `python scripts/validate_skill.py`
+- [ ] 已检查受影响的 Markdown 或模板文件
 
-## Notes
+## 备注
 
-Anything reviewers should pay attention to?
+有没有什么地方需要评审者特别留意？

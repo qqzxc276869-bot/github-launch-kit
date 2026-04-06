@@ -1,25 +1,25 @@
-name: Feature request
-description: Suggest a focused improvement to the skill or repository.
-title: "[feature] "
+name: 功能建议
+description: 为 skill 或仓库提出一个聚焦且明确的改进建议。
+title: "[建议] "
 labels:
   - enhancement
 body:
   - type: textarea
     id: problem
     attributes:
-      label: What problem should this solve?
-      placeholder: The skill handles README rewrites well, but it does not give enough guidance for launch case studies.
+      label: 你希望解决什么问题？
+      placeholder: 这个 skill 在 README 改写上做得不错，但对真实案例展示的指导还不够。
     validations:
       required: true
   - type: textarea
     id: proposal
     attributes:
-      label: What would you like to add?
-      placeholder: Add a reusable section for before/after launch examples.
+      label: 你希望新增什么？
+      placeholder: 增加一个可复用的“改造前 / 改造后”案例结构。
     validations:
       required: true
   - type: textarea
     id: impact
     attributes:
-      label: Why would this help?
-      placeholder: It would make the skill more useful for developers preparing a public launch.
+      label: 这为什么有帮助？
+      placeholder: 这会让准备公开发布的开发者更容易直接使用这个 skill。
